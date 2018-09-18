@@ -1,0 +1,143 @@
+        /*重置样式*/
+    body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin:0 ;padding:0; }
+    body { background:#ffffff ; color:#000; font-size:12px; font-style:normal; font-family:"Microsoft Yahei";}
+    em, b, i { font-style:normal;}
+    img { border:none;}
+    a { text-decoration:none; color:#000;}
+    a:hover { text-decoration:none;}
+    li { list-style:none;}
+    table { border-spacing:0; border-collapse:collapse;}
+    /*the end*/
+    /*公共*/
+    .hide {display: none;}
+    .flt {float:left;}
+    .frt {float:right;}
+    .clear { clear: both;}
+    /*清除浮动*/
+    .clearfix { *zoom: 1;} 
+    .clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+    .clearfix:after { clear: both;}
+
+    /* 头部样式   */
+        .header{width: 1200px;height: 75px;margin: 33px auto 19px;}
+        .header .logo{float: left;margin-left: 3px;}
+        .nav{float:left;width:777px;height:36px;line-height: 36px;margin: 27px 0 0 18px;}
+        .nav li{float: left;font-size: 16px;margin-left: 33px;}
+        .nav a:hover{color:#026e25;}
+        .header .phone{float: right;margin-top: 5px;}
+
+    /* 联益业务   */
+
+        .container{background-color:#f3f3f3;overflow: hidden;}
+        .containerEnglish{height: 30px; font-size: 18px;text-align: center;margin-top:19px;line-height: 30px;color: #595959;}
+        .containerChinese{height:32px;text-align: center;font-size: 20px;line-height: 0;line-height: 32px;color: #549005;margin-bottom: 18px;}
+        .fenge{display: block;margin: 0 auto;}
+
+        .container_bottom{width: 1201px; margin: 25px auto 0px;}
+
+        .lianyi li{width: 227px;height: 252px;background-color: #ffffff;float: left;border: 1px solid #eaeaea;margin-left: 14px;border-radius: 10px;}
+        .lianyi li:first-child{margin-left: 0px;}
+        .lianyi .yuan{width: 112px;height: 112px;border: 1px solid #fff;border-radius: 50%;margin: 40px auto 0;box-shadow: 30px 30px 50px #f5f5f5;}
+        .lianyi .yuan:hover{width: 112px;height: 112px;border: 1px solid #549005;border-radius: 50%;margin: 40px auto 0;}
+
+        .xunzhang1{display: block;width: 80px;height: 65px;  background: url(../css/images/icon.png);margin: 25px auto 0;}
+        .xunzhang2{display: block;width: 80px;height: 65px;  background: url(../css/images/icon.png) -80px ;margin: 25px auto 0;}
+        .xunzhang3{display: block;width: 80px;height: 65px;  background: url(../css/images/icon.png) -160px;margin: 25px auto 0;}
+        .xunzhang4{display: block;width: 80px;height: 65px;  background: url(../css/images/icon.png) -240px;margin: 25px auto 0;}
+        .xunzhang5{display: block;width: 80px;height: 65px;  background: url(../css/images/icon.png) -320px;margin: 20px auto 0;}
+
+        .lianyi a{display: block;font-size: 16px;height: 38px;line-height: 38px;margin: 50px auto 10px;text-align: center;color: #549005;}
+        .lianyi a:hover{text-decoration: none;color: #000;}
+        .more{display: block; width: 105px;height: 37px;border: 1px solid #549005;border-radius: 15px;text-align: center;line-height: 37px;margin: 20px auto 0;}
+        .more:hover{text-decoration: none;color: #85b933;}
+        .container .more{display: block; width: 105px;height: 37px;border: 1px solid #549005;border-radius: 15px;text-align: center;line-height: 37px;margin: 42px auto 35px;}
+        .container .more:hover{text-decoration: none;color: #85b933;}
+
+    /*  权威认证  */
+
+        .quanwei{width: 1200px;margin: 0 auto;overflow: hidden;}
+        .cell{position: relative;}
+        .cell .prev{color: #506c30;font-size: 60px;margin-top: 160px;cursor: pointer;position: absolute;left: 0;}
+        .cell .next{color: #506c30;font-size: 60px;margin-top: 160px; cursor: pointer;position: absolute;right: 0;}
+        .lunbopic{width: 1100px;height: 397px;margin-top: 18px; margin-left: 60px;overflow: hidden;}
+        
+        .lunbopic li{width: 237px;height: 387px;border: 5px solid #e0e0e0;float: left;margin-right: 25px;}
+
+
+    /*果园风采*/
+        .guoyuan{overflow: hidden;}
+        .fengcai{height: 532px;margin-top: 23px;background: url(../images/guoyuan_pic.jpg);}
+        .fengcai_mid{width: 1200px;height: 532px;margin: 0 auto;}
+        .mid1{width:50%;height: 266px;float: left;}
+        .mid1_pic{float: left; border: 2px solid #fff;margin: 33px 16px 19px 0;}
+
+        .mid1_text span{display: block;font-size: 20px;margin-bottom: 10px;}
+        .mid1_text{float: left;width: 280px;font-size: 14px;line-height: 26px;margin-top: 53px;}
+
+
+    /*采摘包装    */
+        .caizhai{width:1200px;margin: 0 auto;overflow: hidden;}
+
+        .baozhuan{height: 522px;margin-top: 30px;}
+        .bao{float: left;}
+        .bao_text span{display: block;font-size: 18px;margin-bottom: 10px;text-align: center;border-bottom: 1px solid #f1eded;padding-bottom: 10px;margin-top: 10px;}
+        .bao_text{width:340px;height: 241px;float: left;font-size: 14px;line-height: 26px;padding: 0 30px 20px 30px;}
+
+
+    /*售后保障    */
+
+        .baozhang{background: url(../images/shouhou_pic.jpg);margin-top: 10px;}
+        .bao_mid{width: 1200px;margin: 0 auto;height: 659px;}
+        .yuanzhu{float: left;margin: 10px 10px 0 0;}
+        .yuanzhu_top{width: 225px;height: 477px;border-radius: 150px 150px 0 0;border: 2px solid #f2f1f1;border-bottom:0;background-color: #fff;}
+
+        .yuanzhu_yuan{width: 216px;height: 216px;border-radius:50%;margin: 11px auto 0;overflow: hidden;}
+        .yuanzhu_text{font-size: 14px;line-height: 26px;border-top: 1px solid #d1cdcd;width: 165px;margin: 35px auto 0;padding-top: 15px}
+
+
+        .yuanzhu_bottom{width: 225px;height: 100px;border-radius: 0 0 150px 150px;background-color: #e1e1e1;border: 2px solid #f2f1f1;border-top:0;overflow: hidden;}
+
+        .yuanzhu_jiantou{width: 44px;height: 44px;border: 1px solid #c2c2c2;border-radius: 50%;margin: 26px auto 0;text-align: center;font-size: 25px;line-height: 44px;color: #6e6e6e;}
+.yuanzhu_jiantou:hover{background-color: #549005;}
+    /*尾部*/
+        
+    .footer {
+        width: 1200px;
+        margin: 0 auto 20px;
+        overflow: hidden;
+    }
+
+    .footer_top {
+        margin: 30px 0 30px 120px;
+    }
+
+    .footer_top a {
+        display: block;
+        float: left;
+        font-size: 16px;
+        padding: 0px 20px;
+        border-left: 1px solid #979797;
+    }
+
+    .footer_top a:first-child {
+        border-left: 0;
+    }
+
+    .footer_top a:hover {
+        color: #549005;
+        text-decoration: none;
+    }
+
+    .copyright {
+        float: left;
+        font-size: 14px; 
+        line-height:26px;
+        margin-left: 280px
+    }
+
+    .copyright span {
+        display: inline-block;
+        margin-left: 13px;
+
+    }
+
